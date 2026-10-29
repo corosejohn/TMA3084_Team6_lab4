@@ -27,12 +27,9 @@ jobs:
 
       - name: Install dependencies
         run: flutter pub get
-        working-directory: pizza_store_app
 
       - name: Analyze code
         run: flutter analyze
-        working-directory: pizza_store_app
 
       - name: Run tests
         run: flutter test
-        working-directory: pizza_store_app
